@@ -36,7 +36,8 @@
         Else
             errores.Add("Debe escribir en el campo Nombre")
         End If
-        erroresLabel.Text = errores
+        var s = string.Join(",", errores)
+        erroresLabel.Text = s
     End Sub
 
     Private Sub frmRegistro_Load(sender As Object, e As EventArgs) Handles MyBase.Load
