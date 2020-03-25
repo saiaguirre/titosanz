@@ -33,7 +33,7 @@ Partial Class loginForm
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(53, 54)
+        Me.Label1.Location = New System.Drawing.Point(53, 96)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(43, 13)
         Me.Label1.TabIndex = 0
@@ -42,7 +42,7 @@ Partial Class loginForm
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(53, 101)
+        Me.Label2.Location = New System.Drawing.Point(53, 138)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(61, 13)
         Me.Label2.TabIndex = 1
@@ -50,23 +50,23 @@ Partial Class loginForm
         '
         'usuarioText
         '
-        Me.usuarioText.Location = New System.Drawing.Point(161, 51)
+        Me.usuarioText.Location = New System.Drawing.Point(161, 93)
         Me.usuarioText.Name = "usuarioText"
         Me.usuarioText.Size = New System.Drawing.Size(100, 20)
         Me.usuarioText.TabIndex = 2
         '
         'contrasenaText
         '
-        Me.contrasenaText.Location = New System.Drawing.Point(161, 98)
+        Me.contrasenaText.Location = New System.Drawing.Point(161, 135)
         Me.contrasenaText.Name = "contrasenaText"
         Me.contrasenaText.Size = New System.Drawing.Size(100, 20)
         Me.contrasenaText.TabIndex = 3
         '
         'aceptarButton
         '
-        Me.aceptarButton.Location = New System.Drawing.Point(113, 184)
+        Me.aceptarButton.Location = New System.Drawing.Point(100, 190)
         Me.aceptarButton.Name = "aceptarButton"
-        Me.aceptarButton.Size = New System.Drawing.Size(80, 26)
+        Me.aceptarButton.Size = New System.Drawing.Size(88, 39)
         Me.aceptarButton.TabIndex = 4
         Me.aceptarButton.Text = "Aceptar"
         Me.aceptarButton.UseVisualStyleBackColor = True

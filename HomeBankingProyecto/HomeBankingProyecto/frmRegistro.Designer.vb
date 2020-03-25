@@ -204,9 +204,9 @@ Partial Class frmRegistro
         '
         'correoText
         '
-        Me.correoText.Location = New System.Drawing.Point(161, 44)
+        Me.correoText.Location = New System.Drawing.Point(90, 44)
         Me.correoText.Name = "correoText"
-        Me.correoText.Size = New System.Drawing.Size(100, 20)
+        Me.correoText.Size = New System.Drawing.Size(171, 20)
         Me.correoText.TabIndex = 34
         '
         'usuarioText
