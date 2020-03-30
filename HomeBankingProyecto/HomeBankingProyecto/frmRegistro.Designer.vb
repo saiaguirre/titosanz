@@ -33,10 +33,11 @@ Partial Class frmRegistro
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.monthCalendar = New System.Windows.Forms.MonthCalendar()
+        Me.NacimientoPicker = New System.Windows.Forms.DateTimePicker()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.erroresLabel = New System.Windows.Forms.Label()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.lblReqContraseña = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.correoText = New System.Windows.Forms.TextBox()
         Me.usuarioText = New System.Windows.Forms.TextBox()
@@ -55,7 +56,7 @@ Partial Class frmRegistro
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(296, 9)
+        Me.Label8.Location = New System.Drawing.Point(286, 9)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(77, 20)
         Me.Label8.TabIndex = 14
@@ -63,9 +64,9 @@ Partial Class frmRegistro
         '
         'registrarseButton
         '
-        Me.registrarseButton.Location = New System.Drawing.Point(437, 468)
+        Me.registrarseButton.Location = New System.Drawing.Point(277, 457)
         Me.registrarseButton.Name = "registrarseButton"
-        Me.registrarseButton.Size = New System.Drawing.Size(75, 23)
+        Me.registrarseButton.Size = New System.Drawing.Size(95, 37)
         Me.registrarseButton.TabIndex = 25
         Me.registrarseButton.Text = "Registrarse"
         Me.registrarseButton.UseVisualStyleBackColor = True
@@ -74,9 +75,9 @@ Partial Class frmRegistro
         '
         Me.GroupBox3.Controls.Add(Me.GroupBox2)
         Me.GroupBox3.Controls.Add(Me.GroupBox1)
-        Me.GroupBox3.Location = New System.Drawing.Point(30, 46)
+        Me.GroupBox3.Location = New System.Drawing.Point(23, 63)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(285, 445)
+        Me.GroupBox3.Size = New System.Drawing.Size(286, 370)
         Me.GroupBox3.TabIndex = 26
         Me.GroupBox3.TabStop = False
         '
@@ -145,40 +146,45 @@ Partial Class frmRegistro
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.monthCalendar)
-        Me.GroupBox1.Location = New System.Drawing.Point(14, 206)
+        Me.GroupBox1.Controls.Add(Me.NacimientoPicker)
+        Me.GroupBox1.Location = New System.Drawing.Point(14, 254)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(257, 223)
+        Me.GroupBox1.Size = New System.Drawing.Size(257, 75)
         Me.GroupBox1.TabIndex = 18
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Fecha de nacimiento"
         '
-        'monthCalendar
+        'NacimientoPicker
         '
-        Me.monthCalendar.Location = New System.Drawing.Point(12, 34)
-        Me.monthCalendar.Name = "monthCalendar"
-        Me.monthCalendar.TabIndex = 20
+        Me.NacimientoPicker.Location = New System.Drawing.Point(21, 32)
+        Me.NacimientoPicker.Name = "NacimientoPicker"
+        Me.NacimientoPicker.Size = New System.Drawing.Size(215, 20)
+        Me.NacimientoPicker.TabIndex = 30
         '
         'Panel1
         '
+        Me.Panel1.AccessibleRole = System.Windows.Forms.AccessibleRole.SplitButton
         Me.Panel1.Controls.Add(Me.erroresLabel)
-        Me.Panel1.Location = New System.Drawing.Point(365, 252)
+        Me.Panel1.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel1.Location = New System.Drawing.Point(360, 333)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(267, 196)
+        Me.Panel1.Size = New System.Drawing.Size(286, 100)
         Me.Panel1.TabIndex = 27
         '
         'erroresLabel
         '
         Me.erroresLabel.AutoSize = True
+        Me.erroresLabel.Font = New System.Drawing.Font("Comic Sans MS", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.erroresLabel.ForeColor = System.Drawing.Color.Red
         Me.erroresLabel.Location = New System.Drawing.Point(8, 13)
         Me.erroresLabel.Name = "erroresLabel"
-        Me.erroresLabel.Size = New System.Drawing.Size(65, 13)
+        Me.erroresLabel.Size = New System.Drawing.Size(74, 16)
         Me.erroresLabel.TabIndex = 0
         Me.erroresLabel.Text = "erroresLabel"
         '
         'GroupBox4
         '
+        Me.GroupBox4.Controls.Add(Me.lblReqContraseña)
         Me.GroupBox4.Controls.Add(Me.Label4)
         Me.GroupBox4.Controls.Add(Me.correoText)
         Me.GroupBox4.Controls.Add(Me.usuarioText)
@@ -186,12 +192,23 @@ Partial Class frmRegistro
         Me.GroupBox4.Controls.Add(Me.Label7)
         Me.GroupBox4.Controls.Add(Me.Label6)
         Me.GroupBox4.Controls.Add(Me.Label5)
-        Me.GroupBox4.Location = New System.Drawing.Point(365, 46)
+        Me.GroupBox4.Location = New System.Drawing.Point(345, 64)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(267, 194)
+        Me.GroupBox4.Size = New System.Drawing.Size(314, 263)
         Me.GroupBox4.TabIndex = 29
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Datos de cuenta"
+        '
+        'lblReqContraseña
+        '
+        Me.lblReqContraseña.AutoSize = True
+        Me.lblReqContraseña.Font = New System.Drawing.Font("Comic Sans MS", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblReqContraseña.ForeColor = System.Drawing.Color.Red
+        Me.lblReqContraseña.Location = New System.Drawing.Point(32, 170)
+        Me.lblReqContraseña.Name = "lblReqContraseña"
+        Me.lblReqContraseña.Size = New System.Drawing.Size(41, 15)
+        Me.lblReqContraseña.TabIndex = 36
+        Me.lblReqContraseña.Text = "Label9"
         '
         'Label4
         '
@@ -211,16 +228,16 @@ Partial Class frmRegistro
         '
         'usuarioText
         '
-        Me.usuarioText.Location = New System.Drawing.Point(161, 92)
+        Me.usuarioText.Location = New System.Drawing.Point(99, 92)
         Me.usuarioText.Name = "usuarioText"
-        Me.usuarioText.Size = New System.Drawing.Size(100, 20)
+        Me.usuarioText.Size = New System.Drawing.Size(162, 20)
         Me.usuarioText.TabIndex = 33
         '
         'contraseñaText
         '
-        Me.contraseñaText.Location = New System.Drawing.Point(161, 140)
+        Me.contraseñaText.Location = New System.Drawing.Point(99, 144)
         Me.contraseñaText.Name = "contraseñaText"
-        Me.contraseñaText.Size = New System.Drawing.Size(100, 20)
+        Me.contraseñaText.Size = New System.Drawing.Size(162, 20)
         Me.contraseñaText.TabIndex = 32
         '
         'Label7
@@ -254,12 +271,13 @@ Partial Class frmRegistro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(670, 536)
+        Me.ClientSize = New System.Drawing.Size(685, 506)
         Me.Controls.Add(Me.GroupBox4)
+        Me.Controls.Add(Me.registrarseButton)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GroupBox3)
-        Me.Controls.Add(Me.registrarseButton)
         Me.Controls.Add(Me.Label8)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmRegistro"
         Me.Text = "Registro"
         Me.GroupBox3.ResumeLayout(False)
@@ -285,7 +303,6 @@ Partial Class frmRegistro
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
-    Friend WithEvents monthCalendar As System.Windows.Forms.MonthCalendar
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents erroresLabel As System.Windows.Forms.Label
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
@@ -296,4 +313,6 @@ Partial Class frmRegistro
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents NacimientoPicker As System.Windows.Forms.DateTimePicker
+    Friend WithEvents lblReqContraseña As System.Windows.Forms.Label
 End Class
