@@ -47,6 +47,7 @@ Partial Class frmRegistro
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.btnMostrContr = New System.Windows.Forms.Button()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -187,6 +188,7 @@ Partial Class frmRegistro
         '
         'GroupBox4
         '
+        Me.GroupBox4.Controls.Add(Me.btnMostrContr)
         Me.GroupBox4.Controls.Add(Me.lblReqContraseña)
         Me.GroupBox4.Controls.Add(Me.Label4)
         Me.GroupBox4.Controls.Add(Me.correoText)
@@ -274,6 +276,15 @@ Partial Class frmRegistro
         '
         Me.ErrorProvider1.ContainerControl = Me
         '
+        'btnMostrContr
+        '
+        Me.btnMostrContr.Location = New System.Drawing.Point(272, 144)
+        Me.btnMostrContr.Name = "btnMostrContr"
+        Me.btnMostrContr.Size = New System.Drawing.Size(36, 23)
+        Me.btnMostrContr.TabIndex = 37
+        Me.btnMostrContr.Text = "Ver"
+        Me.btnMostrContr.UseVisualStyleBackColor = True
+        '
         'frmRegistro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -324,4 +335,5 @@ Partial Class frmRegistro
     Friend WithEvents NacimientoPicker As System.Windows.Forms.DateTimePicker
     Friend WithEvents lblReqContraseña As System.Windows.Forms.Label
     Friend WithEvents ErrorProvider1 As System.Windows.Forms.ErrorProvider
+    Friend WithEvents btnMostrContr As System.Windows.Forms.Button
 End Class

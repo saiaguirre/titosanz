@@ -105,6 +105,7 @@ Public Class frmRegistro
         dniText.Text = "SOLO NÚMEROS"
         lblReqContraseña.Text = ""
         erroresLabel.Text = ""
+        contraseñaText.UseSystemPasswordChar = True
     End Sub
 
     Private Sub dniText_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles dniText.KeyPress
@@ -144,4 +145,11 @@ Public Class frmRegistro
     End Sub
 
 
+    Private Sub btnMostrContr_Click(sender As Object, e As EventArgs) Handles btnMostrContr.Click
+        If contraseñaText.UseSystemPasswordChar = True Then
+            contraseñaText.UseSystemPasswordChar = False
+        Else
+            contraseñaText.UseSystemPasswordChar = True
+        End If
+    End Sub
 End Class
