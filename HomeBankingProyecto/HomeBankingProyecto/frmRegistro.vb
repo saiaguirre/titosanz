@@ -1,4 +1,5 @@
 ﻿Imports System.Text.RegularExpressions
+Imports System.IO
 
 
 Public Class frmRegistro
@@ -53,7 +54,7 @@ Public Class frmRegistro
                 errores &= ("Por favor solo letras en el campo NOMBRE" & vbNewLine)
             End If
 
-            If Not Regex.Match(nombreText.Text, "^[a-z]*$", RegexOptions.IgnoreCase).Success Then
+            If Not Regex.Match(apellidoText.Text, "^[a-z]*$", RegexOptions.IgnoreCase).Success Then
                 errores &= ("Por favor solo letras en el campo APELLIDO" & vbNewLine)
             End If
 
@@ -72,9 +73,15 @@ Public Class frmRegistro
             Edad = Años
             If Años < 18 Then errores &= ("Debe ser mayor de edad para registrarse")
 
-
             erroresLabel.Text = errores
-
+            If errores = "" Then
+                FileOpen(1, "datos.txt", OpenMode.Append)
+                WriteLine(1, usuarioText.Text, contraseñaText.Text, nombreText.Text, apellidoText.Text, dniText.Text, correoText.Text, Format(NacimientoPicker.Value, "Short Date"))
+                FileClose()
+                If MsgBox("Registrado con exito, ¿desea volver al login?", vbYesNo, "Registro exitoso") = vbYes Then
+                    Me.Hide()
+                End If
+            End If
         End If
 
 

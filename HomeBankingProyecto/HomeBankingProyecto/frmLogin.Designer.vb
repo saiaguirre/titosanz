@@ -28,6 +28,7 @@ Partial Class loginForm
         Me.contrasenaText = New System.Windows.Forms.TextBox()
         Me.aceptarButton = New System.Windows.Forms.Button()
         Me.registrarseLinkLabel = New System.Windows.Forms.LinkLabel()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -81,11 +82,22 @@ Partial Class loginForm
         Me.registrarseLinkLabel.TabStop = True
         Me.registrarseLinkLabel.Text = "Registrarse"
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(85, 35)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(139, 24)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "Iniciar sesión "
+        '
         'loginForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(323, 318)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.registrarseLinkLabel)
         Me.Controls.Add(Me.aceptarButton)
         Me.Controls.Add(Me.contrasenaText)
@@ -104,5 +116,6 @@ Partial Class loginForm
     Friend WithEvents contrasenaText As System.Windows.Forms.TextBox
     Friend WithEvents aceptarButton As System.Windows.Forms.Button
     Friend WithEvents registrarseLinkLabel As System.Windows.Forms.LinkLabel
+    Friend WithEvents Label3 As System.Windows.Forms.Label
 
 End Class

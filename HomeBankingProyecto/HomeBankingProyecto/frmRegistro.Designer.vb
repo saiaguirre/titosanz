@@ -70,7 +70,7 @@ Partial Class frmRegistro
         Me.registrarseButton.Location = New System.Drawing.Point(277, 457)
         Me.registrarseButton.Name = "registrarseButton"
         Me.registrarseButton.Size = New System.Drawing.Size(95, 37)
-        Me.registrarseButton.TabIndex = 25
+        Me.registrarseButton.TabIndex = 8
         Me.registrarseButton.Text = "Registrarse"
         Me.registrarseButton.UseVisualStyleBackColor = True
         '
@@ -104,7 +104,7 @@ Partial Class frmRegistro
         Me.dniText.Location = New System.Drawing.Point(136, 124)
         Me.dniText.Name = "dniText"
         Me.dniText.Size = New System.Drawing.Size(100, 20)
-        Me.dniText.TabIndex = 19
+        Me.dniText.TabIndex = 3
         '
         'Label3
         '
@@ -120,14 +120,14 @@ Partial Class frmRegistro
         Me.apellidoText.Location = New System.Drawing.Point(136, 87)
         Me.apellidoText.Name = "apellidoText"
         Me.apellidoText.Size = New System.Drawing.Size(100, 20)
-        Me.apellidoText.TabIndex = 17
+        Me.apellidoText.TabIndex = 2
         '
         'nombreText
         '
         Me.nombreText.Location = New System.Drawing.Point(136, 50)
         Me.nombreText.Name = "nombreText"
         Me.nombreText.Size = New System.Drawing.Size(100, 20)
-        Me.nombreText.TabIndex = 16
+        Me.nombreText.TabIndex = 1
         '
         'Label2
         '
@@ -162,7 +162,7 @@ Partial Class frmRegistro
         Me.NacimientoPicker.Location = New System.Drawing.Point(21, 32)
         Me.NacimientoPicker.Name = "NacimientoPicker"
         Me.NacimientoPicker.Size = New System.Drawing.Size(215, 20)
-        Me.NacimientoPicker.TabIndex = 30
+        Me.NacimientoPicker.TabIndex = 4
         '
         'Panel1
         '
@@ -227,21 +227,21 @@ Partial Class frmRegistro
         Me.correoText.Location = New System.Drawing.Point(90, 44)
         Me.correoText.Name = "correoText"
         Me.correoText.Size = New System.Drawing.Size(171, 20)
-        Me.correoText.TabIndex = 34
+        Me.correoText.TabIndex = 5
         '
         'usuarioText
         '
         Me.usuarioText.Location = New System.Drawing.Point(99, 92)
         Me.usuarioText.Name = "usuarioText"
         Me.usuarioText.Size = New System.Drawing.Size(162, 20)
-        Me.usuarioText.TabIndex = 33
+        Me.usuarioText.TabIndex = 6
         '
         'contraseñaText
         '
         Me.contraseñaText.Location = New System.Drawing.Point(99, 144)
         Me.contraseñaText.Name = "contraseñaText"
         Me.contraseñaText.Size = New System.Drawing.Size(162, 20)
-        Me.contraseñaText.TabIndex = 32
+        Me.contraseñaText.TabIndex = 7
         '
         'Label7
         '
