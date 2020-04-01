@@ -4,20 +4,11 @@
 Public Class frmRegistro
 
     Function IsPasswordValid(password As String) As Boolean
-
-        ' Si es Nothing no es válida.
-        If (password Is Nothing) Then Return False
-
-        ' Si su longitud es menor de 8 caracteres, no es válida.
-        If (password.Length < 8) Then Return False
-
-
         Dim existeNumero As Boolean
         Dim existeLetraMayuscula As Boolean
 
-        ' Ya solo queda verificar si al menos hay
-        ' un número y una letra en mayúscula.
-        '
+        If (password Is Nothing) Then Return False
+        If (password.Length < 8) Then Return False
         For Each c As Char In password
 
             If (Char.IsDigit(c)) Then
@@ -36,6 +27,14 @@ Public Class frmRegistro
 
     Private Sub registrarseButton_Click(sender As Object, e As EventArgs) Handles registrarseButton.Click
         Dim errores As String
+        Dim Años As Integer
+        Dim Edad As Integer
+        Dim FechaNac As Date
+        Dim day = NacimientoPicker.Value.Day
+        Dim diahoy = Today.Day
+        Dim isValid As Boolean = IsPasswordValid(contraseñaText.Text)
+
+
         If nombreText.Text = "" Or
            apellidoText.Text = "" Or
            dniText.Text = "" Or dniText.Text = "SOLO NÚMEROS" Or
@@ -50,11 +49,11 @@ Public Class frmRegistro
                 errores &= ("Por favor ingrese un DNI válido" & vbNewLine)
             End If
 
-            If Not Regex.Match(nombreText.Text, "^[a-z]*$", RegexOptions.IgnoreCase).Success Or nombreText.Text = "" Then
+            If Not Regex.Match(nombreText.Text, "^[a-z]*$", RegexOptions.IgnoreCase).Success Then
                 errores &= ("Por favor solo letras en el campo NOMBRE" & vbNewLine)
             End If
 
-            If Not Regex.Match(nombreText.Text, "^[a-z]*$", RegexOptions.IgnoreCase).Success Or nombreText.Text = "" Then
+            If Not Regex.Match(nombreText.Text, "^[a-z]*$", RegexOptions.IgnoreCase).Success Then
                 errores &= ("Por favor solo letras en el campo APELLIDO" & vbNewLine)
             End If
 
@@ -62,25 +61,15 @@ Public Class frmRegistro
                 errores &= ("El correo ingresado no es válido" & vbNewLine)
             End If
 
-            Dim isValid As Boolean = IsPasswordValid(contraseñaText.Text)
-
             If (Not (isValid)) Or contraseñaText.Text = usuarioText.Text Then
                 errores &= ("La contraseña no es suficientemente segura." & vbNewLine)
             End If
 
-            Dim Años As Integer
-            Dim Edad As Integer
-            Dim FechaNac As Date
-            Dim day = NacimientoPicker.Value.Day
-            Dim diahoy = Today.Day
             FechaNac = NacimientoPicker.Value
-
             Años = Year(Now) - Year(FechaNac)
             If Month(Now) < Month(FechaNac) Then Años = Años - 1
             If Month(Now) = Month(FechaNac) And diahoy < day Then Años = Años - 1
-
             Edad = Años
-
             If Años < 18 Then errores &= ("Debe ser mayor de edad para registrarse")
 
 
@@ -127,9 +116,6 @@ Public Class frmRegistro
             dniText.Text = ""
         End If
     End Sub
-
-
-
 
     Private Sub contraseñaText_GotFocus(sender As Object, e As EventArgs) Handles contraseñaText.GotFocus
         lblReqContraseña.Text = ("Recuerde los requisitos de la contraseña:" & vbNewLine &
