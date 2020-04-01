@@ -53,7 +53,7 @@ Public Class frmRegistro
                 errores &= ("Por favor solo letras en el campo NOMBRE" & vbNewLine)
             End If
 
-            If Not Regex.Match(nombreText.Text, "^[a-z]*$", RegexOptions.IgnoreCase).Success Then
+            If Not Regex.Match(apellidoText.Text, "^[a-z]*$", RegexOptions.IgnoreCase).Success Then
                 errores &= ("Por favor solo letras en el campo APELLIDO" & vbNewLine)
             End If
 
@@ -98,6 +98,7 @@ Public Class frmRegistro
         dniText.Text = "SOLO NÚMEROS"
         lblReqContraseña.Text = ""
         erroresLabel.Text = ""
+        contraseñaText.UseSystemPasswordChar = True
     End Sub
 
     Private Sub dniText_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles dniText.KeyPress
@@ -137,4 +138,11 @@ Public Class frmRegistro
     End Sub
 
 
+    Private Sub btnMostrContr_Click(sender As Object, e As EventArgs) Handles btnMostrContr.Click
+        If contraseñaText.UseSystemPasswordChar = True Then
+            contraseñaText.UseSystemPasswordChar = False
+        Else
+            contraseñaText.UseSystemPasswordChar = True
+        End If
+    End Sub
 End Class
