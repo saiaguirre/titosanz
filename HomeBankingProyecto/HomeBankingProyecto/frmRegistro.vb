@@ -145,4 +145,5 @@ Public Class frmRegistro
             contraseñaText.UseSystemPasswordChar = True
         End If
     End Sub
+
 End Class
