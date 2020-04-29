@@ -1,11 +1,10 @@
 ﻿Public Class loginForm
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
-    End Sub
-
-    Private Sub contrasenaText_TextChanged(sender As Object, e As EventArgs) Handles contrasenaText.TextChanged
-
+    Private Sub contrasenaText_KeyDown(sender As Object, e As KeyEventArgs) Handles contrasenaText.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            aceptarButton_Click("", e)
+        End If
     End Sub
 
     Private Sub registrarseLinkLabel_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles registrarseLinkLabel.LinkClicked
@@ -23,10 +22,6 @@
         Dim x = r.Left + (r.Width - Me.Width) \ 2
         Dim y = r.Top + (r.Height - Me.Height) \ 2
         Me.Location = New Point(x, y)
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
     End Sub
 
     Private Sub aceptarButton_Click(sender As Object, e As EventArgs) Handles aceptarButton.Click
@@ -48,12 +43,21 @@
                 If usuarioText.Text = usuario And contrasenaText.Text = password Then
                     MsgBox("Iniciado Correctamente")
                     usuarioEncontrado = True
+                    Dim frmCompraVenta As New frmCompraVenta
+
+                    frmCompraVenta.Show()
                 End If
             End While
             FileClose()
             If usuarioEncontrado = False Then
                 MsgBox("Usuario no encontrado")
             End If
+        End If
+    End Sub
+
+    Private Sub usuarioText_KeyDown(sender As Object, e As KeyEventArgs) Handles usuarioText.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            aceptarButton_Click("", e)
         End If
     End Sub
 End Class

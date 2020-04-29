@@ -34,3 +34,4 @@ C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj
 C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmRegistro.resources
 C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.Resources.resources
 C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbproj.GenerateResource.Cache
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmCompraVenta.resources
