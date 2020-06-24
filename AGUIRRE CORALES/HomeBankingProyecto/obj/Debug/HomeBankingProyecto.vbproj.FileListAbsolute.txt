@@ -1,0 +1,67 @@
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.exe.config
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.exe
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.pdb
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.xml
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbprojResolveAssemblyReference.cache
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.loginForm.resources
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.Resources.resources
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbproj.GenerateResource.Cache
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.exe
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.xml
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.pdb
+C:\Users\manue\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmRegistro.resources
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.exe.config
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.exe
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.xml
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.pdb
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbprojResolveAssemblyReference.cache
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.loginForm.resources
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmRegistro.resources
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.Resources.resources
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbproj.GenerateResource.Cache
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.exe
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.pdb
+C:\Users\simon\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.xml
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.exe.config
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.exe
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.xml
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.pdb
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.exe
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.pdb
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.xml
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbprojResolveAssemblyReference.cache
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.loginForm.resources
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmRegistro.resources
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.Resources.resources
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbproj.GenerateResource.Cache
+C:\Users\manue\Desktop\Cole\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmCompraVenta.resources
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.exe.config
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.exe
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.xml
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.pdb
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.exe
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.pdb
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.xml
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbprojResolveAssemblyReference.cache
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmCompraVenta.resources
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.loginForm.resources
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmRegistro.resources
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.Resources.resources
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbproj.GenerateResource.Cache
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.FrmPlazofijo.resources
+D:\Desktop\titosanz\HomeBankingProyecto\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmMisPagos.resources
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.exe.config
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.exe
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.xml
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.pdb
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.exe
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.pdb
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\bin\Debug\HomeBankingProyecto.xml
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbprojResolveAssemblyReference.cache
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmCompraVenta.resources
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.loginForm.resources
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmMisPagos.resources
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.FrmPlazofijo.resources
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.frmRegistro.resources
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.Resources.resources
+D:\Desktop\titosanz\AGUIRRE CORALES\HomeBankingProyecto\obj\Debug\HomeBankingProyecto.vbproj.GenerateResource.Cache
